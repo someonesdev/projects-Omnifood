@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+section {
+  padding: 3rem;
+}
+
+/* MOBILE NAV */
+
+.section-nav {
+  background-color: #fdf2e9;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  color: #e67e22;
+}
+.menu-icon-user {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.burguer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-header {
+  height: 2.2rem;
+  margin: 1.6rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* *:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+/* outline-offset: 8px; */
+/* box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+} */
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+
+.section-hero {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  position: relative;
+}
+
+.hero-img {
+  display: none;
+}
+
+.main-title {
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: -0.2rem;
+}
+
+.hero-text p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin: 2.4rem 0;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #e67e22;
+  color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-ghost {
+  background-color: white;
+  color: #e67e22;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.customer {
+  width: 5rem;
+  border-radius: 50%;
+  border: 0.3rem solid #fdf2e9;
+  margin-left: -1rem;
+}
+
+.hero-customers {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.customer:first-child {
+  margin-left: 0;
+}
+
+.orange {
+  color: #cf711f;
+}
+
+.hero-numeralia-text {
+  text-align: center;
+}
+
+/*
+FEATURED IN
+*/
+
+.section-featured-in {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.span-featured-in {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: 3.2rem;
+  margin: 2rem 0;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/* DIVIDER */
+
+.divider-text {
+  text-transform: uppercase;
+  color: #cf711f;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.divider-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* HOW IT WORKS */
+
+.section-how-it-works {
+  position: relative;
+}
+.how-number {
+  color: #dddddd;
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.flash2 {
+  position: absolute;
+  left: -50%;
+  padding: 4rem;
+}
