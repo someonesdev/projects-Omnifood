@@ -210,6 +210,7 @@ FEATURED IN
   display: grid;
   grid-template-columns: 1fr;
   gap: 5rem;
+  max-width: 50rem;
 }
 
 .how-number {
@@ -232,16 +233,19 @@ FEATURED IN
 .mobile {
   width: 100%;
   transform: scale(1.7) rotate(-20deg) translateY(35%) translateX(15%);
+  max-width: 50rem;
 }
 
 .mobile2 {
   width: 100%;
   transform: scale(1.7) rotate(20deg) translateY(20%) translateX(-30%);
+  max-width: 50rem;
 }
 
 .mobile3 {
   width: 100%;
   transform: scale(1.7) rotate(-20deg) translateY(15%) translateX(20%);
+  max-width: 50rem;
 }
 
 .how-img {
@@ -250,8 +254,7 @@ FEATURED IN
 }
 
 .item {
-  min-width: none;
-  width: 100%;
+  max-width: 50rem;
   min-height: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -259,10 +262,15 @@ FEATURED IN
 }
 .item2 {
   min-width: 100%;
+  max-width: 50rem;
   min-height: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
+}
+
+.item3 {
+  max-width: 50rem;
 }
 
 /* Meals section */
@@ -272,6 +280,19 @@ FEATURED IN
   grid-template-columns: 1fr;
   gap: 5rem;
   border-radius: 0.8rem;
+  position: relative;
+}
+
+.arrows {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.arrow {
+  color: #cf711f;
+  font-size: 10rem;
 }
 
 .card {
