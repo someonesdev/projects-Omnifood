@@ -288,11 +288,27 @@ FEATURED IN
   display: flex;
   justify-content: space-between;
   width: 100%;
+  top: 18%;
+  transform: translateY(-25%);
 }
 
-.arrow {
+.arrow-right,
+.arrow-left {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+
+.arrow-right {
+  margin-right: -5%;
+}
+.arrow-left {
+  margin-left: -5%;
+}
+
+.arrow-icon {
   color: #cf711f;
-  font-size: 10rem;
+  font-size: 5rem;
 }
 
 .card {
