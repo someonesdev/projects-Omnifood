@@ -363,6 +363,7 @@ FEATURED IN
 .section-gallery {
   margin-top: 5rem;
   background-color: #fdf2e9;
+  position: relative;
 }
 
 .testimonials {
@@ -421,10 +422,10 @@ FEATURED IN
 .gallery {
   position: absolute;
   width: 100%;
-  margin-top: 2rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 3rem -3rem;
+  background-color: inherit;
 }
 
 .gallery-container {
@@ -433,6 +434,9 @@ FEATURED IN
 }
 
 .gallery-img {
-  width: 50%;
+  width: 45%;
   scroll-snap-align: center;
+  margin-right: 1rem;
+  border-radius: 0.8rem;
+  transition: all 0.2s;
 }
